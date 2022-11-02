@@ -80,6 +80,7 @@ const pecas = {
 const estatiscas = document.querySelectorAll("[data-estatisticas]") 
 
 
+
 function atualizarPecas (peca){
     estatiscas.forEach((elemento)=>{
         elemento.textContent = parseInt(elemento.textContent)  + pecas[peca][elemento.dataset.estatisticas]
